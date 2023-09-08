@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Dosis:wght@200;800&family=Montserrat&family=Poppins:wght@400;700&display=swap');
+
+
+    
+    
+
+
+.heading{
+    color: rgb(250,215,68);
+    font-family: 'Caveat Brush', cursive;
+    /* font-family: 'Dosis', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 6em;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.9);
+}
+
+.forms{
+    background-color:rgb(43,50,82);
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 40%;
+    /* margin: 10px auto; */
+    border-radius: 8px;
+    
+}
+
+.options{
+color: rgb(250,215,68);
+font-family: 'Caveat Brush', cursive;
+font-size: 1.5em;
+}
+
+.questions{
+    color: rgb(250,215,68);
+    font-family: 'Caveat Brush', cursive;
+    font-size: 2em;
+}
+
+.btn{
+    /* margin: 50px 45%; */
+    width: 90px;
+    padding: 10px;
+    background-color:rgb(250,215,68) ;
+    font-family: 'Caveat Brush', cursive;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.question-divider {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+
+  .scorediv{
+
+    width: 15%;
+    height: 200px;
+    background-color: beige;
+    font-family: 'Caveat Brush', cursive;
+    border-radius: 8px;
+    font-size: 4em;
+    text-align: center;
+    position: sticky;
+    top: 5px;
+    box-sizing: border-box;
+    
+
+  }
+
+  .wrapper{
+    display: flex;
+    justify-content: center ;
+    
+  }
+
+  .btnwrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  @media screen and (max-width: 880px){
+    .scorediv{
+        font-size:3em ;
+    }
+  }
+
+  @media screen and (max-width: 740px){
+   
+    .heading{
+        font-size: 5em;
+    }
+    .forms{
+        width: 100%;
+    }
+    .scorediv{
+        font-size:2.5em ;
+        padding: 8px;
+    }
+  }
+
+  @media screen and (max-width: 700px){
+    
+    .heading{
+        font-size: 4.5em;
+    }
+    .forms{
+        width: 100%;
+    }
+    .scorediv{
+        font-size:2.5em ;
+        padding: 8px;
+    }
+  }
+
+  @media screen and (max-width: 610px){
+   
+    .heading{
+        font-size: 4em;
+    }
+    .forms{
+        width: 100%;
+    }
+    .scorediv{
+        font-size:2em ;
+        padding: 10px;
+    }
+  }
+
+  @media screen and (max-width: 610px){
+    
+    .heading{
+        font-size: 3em;
+    }
+    .forms{
+        width: 100%;
+    }
+    .scorediv{
+        font-size:2em ;
+        padding: 10px;
+    }
+  }
+
+
+  @media screen and (max-width: 540px){
+    .scorediv{
+        font-size:1.5em ;
+        padding-top: 24px;
+       
+    }
+  }
